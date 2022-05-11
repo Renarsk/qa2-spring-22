@@ -10,7 +10,7 @@ public class FirstSeleniumTest {
     public void openWebPage(){
         System.setProperty("webdriver.chrome.driver", "C://chromedriver.exe");
         WebDriver driver = new ChromeDriver();
-        driver.manage().window().fullscreen();
+        driver.manage().window().maximize();
         driver.get("http://www.qaguru.lv/");
     }
 }
